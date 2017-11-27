@@ -26,8 +26,12 @@ p {
   font-size: 1.5em;
 }
 
+h3 {
+  text-align: right;
+}
+
 hr {
-  border: 3px solid #000;
+  margin-bottom: 5em;
 }
 
 .container {
@@ -37,9 +41,11 @@ hr {
 }
 
 .image {
-  position: fixed;
-  top: 40em;
-  right: 10em;
+  /*position: fixed;*/
+  /*top: 40em;*/
+  /*right: 10em;*/
+  width: 400px;
+  box-shadow: 10px 10px 20px #567;
 }
 
 .section {
@@ -51,19 +57,40 @@ hr {
 .overlay {
   position: fixed;
   border: 1px solid #000;
-  top: 20%;
-  left: 10%;
-  height: 60vh;
-  width: 80%;
+  top: 10%;
+  left: 5%;
+  height: 80vh;
+  width: 90%;
   z-index: 1;
 }
 
+.columns {
+  display: flex;
+  align-items: center;
+}
+
+.columns > div {
+  flex: 1;
+}
+
+.right {
+  padding: 2em;
+}
+
+.vertical-text {
+  font-size: .9em;
+  transform: rotate(90deg);
+  display: inline-block;
+}
+
+/* Arrow */
+
 .bounce {
-  position:fixed;
-  left:50%;
-  bottom:0;
-  margin-top:-25px;
-  margin-left:-25px;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  margin-top: -25px;
+  margin-left: -25px;
   height: 100px;
   width: 150px;
   background-image: url("../img/down.png");
@@ -81,19 +108,19 @@ hr {
   100%     {bottom:30;}
 }
 
- @-moz-keyframes bounce {
+@-moz-keyframes bounce {
   0%       { bottom:0px; }
   50%      { bottom:15px; }
   100%     {bottom:30;}
 }
 
- @-o-keyframes bounce {
+@-o-keyframes bounce {
   0%       { bottom:0px; }
   50%      { bottom:15px; }
   100%     {bottom:30;}
 }
 
- @keyframes bounce {
+@keyframes bounce {
   0%       { bottom:0px; }
   50%      { bottom:15px; }
   100%     {bottom:30;}
