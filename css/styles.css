@@ -20,16 +20,14 @@ h2 {
   font-size: 3em;
 }
 
-h3 {
+h3,
+p {
   font-family: 'Unica One', cursive;
+  font-size: 1.5em;
 }
 
 hr {
   border: 3px solid #000;
-}
-
-p {
-  font-family: 'Unica One', cursive;
 }
 
 .container {
@@ -58,4 +56,45 @@ p {
   height: 60vh;
   width: 80%;
   z-index: 1;
+}
+
+.bounce {
+  position:fixed;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height: 100px;
+  width: 150px;
+  background-image: url("../img/down.png");
+  background-repeat: no-repeat;
+  -webkit-animation:bounce 1s infinite;
+  -moz-animation:bounce 1s infinite;
+  -o-animation:bounce 1s infinite;
+  animation:bounce 1s infinite;
+
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     {bottom:30;}
+}
+
+ @-moz-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     {bottom:30;}
+}
+
+ @-o-keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     {bottom:30;}
+}
+
+ @keyframes bounce {
+  0%       { bottom:0px; }
+  50%      { bottom:15px; }
+  100%     {bottom:30;}
 }
