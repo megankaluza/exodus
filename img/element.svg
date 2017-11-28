@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="210px" viewBox="0 0 210 210" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #282E33;">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Explanation</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Explanation">
+            <g id="OMG-Copy" transform="translate(43.000000, 43.000000)">
+                <text id="+" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="18" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="104" y="69">+</tspan>
+                </text>
+                <text id="OmiseGo" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="18" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="24" y="117">OmiseGo</tspan>
+                </text>
+                <text id="OMG" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="30" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="27" y="74">OMG</tspan>
+                </text>
+                <text id="$0.00" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="90" y="15">$0.00</tspan>
+                </text>
+                <text id="0%" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="4" y="15">0%</tspan>
+                </text>
+                <rect id="Box" stroke="#3679FF" stroke-width="2" x="1" y="1" width="123" height="123" rx="4"></rect>
+            </g>
+            <text id="Symbol" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="14" font-weight="normal" fill="#D0021B">
+                <tspan x="82" y="33">Symbol</tspan>
+            </text>
+            <text id="Value" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="14" font-weight="normal" fill="#F8E71C">
+                <tspan x="142" y="17">Value</tspan>
+            </text>
+            <text id="Percentage" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="14" font-weight="normal" fill="#3CD7A5">
+                <tspan x="21" y="17">Percentage</tspan>
+            </text>
+            <text id="Name" font-family="MicrosoftSansSerif, Microsoft Sans Serif" font-size="14" font-weight="normal" fill="#9BA6E9">
+                <tspan x="86" y="203">Name</tspan>
+            </text>
+            <path d="M104.5,36.5 L104.5,91.5" id="Line" stroke="#D0021B" stroke-linecap="square"></path>
+            <path d="M106.5,172.5 L106.5,191.5" id="Line-Copy-3" stroke="#9BA6E9" stroke-linecap="square"></path>
+            <path d="M54.5,20.5 L54.5,39.5" id="Line-Copy" stroke="#50E3C2" stroke-linecap="square"></path>
+            <path d="M158.5,20.5 L158.5,39.5" id="Line-Copy-2" stroke="#F8E71C" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
