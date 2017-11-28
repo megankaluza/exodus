@@ -100,6 +100,27 @@ transform: rotate(90deg);
 display: inline-block;
 }*/
 
+/* unvisited link */
+.invision:link {
+  color: #000;
+  /*text-decoration: line-through;*/
+}
+
+ /*visited link */
+.invision:visited {
+  color: #000;
+}
+
+/* mouse over link */
+.invision:hover {
+  background: #FFF;
+}
+
+/* selected link */
+.invision:active {
+  color: #000;
+}
+
 /* Arrow */
 
 .bounce {
