@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 3em;
+  margin-bottom: .5em;
 }
 
 h3 {
@@ -35,23 +36,36 @@ h4 {
   text-decoration: line-through;
 }
 
+hr {
+  margin: 5em 0 5em 0;
+}
+
 p {
   font-family: 'Dosis', sans-serif;
   letter-spacing: 1px;
-  font-size: 1.5em;
+  /*font-size: 1.2em;*/
 }
 
-hr {
-  margin-bottom: 5em;
+.border {
+  border: 1px solid #000;
+  width: 20px;
+}
+
+.bio {
+  width: 400px;
 }
 
 .columns {
   display: flex;
+  /*flex-wrap: wrap;*/
+  /*width: 500px;*/
   align-items: center;
+  margin-bottom: 10em;
 }
 
 .columns > div {
   flex: 1;
+  /*flex-wrap: wrap;*/
 }
 
 .container {
@@ -61,7 +75,7 @@ hr {
 }
 
 .image {
-  box-shadow: 10px 10px 20px #567;
+  box-shadow: 10px 10px 100px #567;
   width: 550px;
 }
 
@@ -72,8 +86,8 @@ hr {
 
 .section {
   padding: 13em;
-  height: 100vh;
-  width: 100%;
+  /*height: 100vh;
+  width: 100%;*/
 }
 
 .overlay {
@@ -86,12 +100,13 @@ hr {
   z-index: 1;
 }
 
-.right {
-  padding: 2em;
+.right,
+.left {
+  padding: 1em;
 }
 
 .table {
-  width: 550px;
+  width: 500px;
 }
 
 /*.vertical-text {
@@ -106,7 +121,7 @@ display: inline-block;
   /*text-decoration: line-through;*/
 }
 
- /*visited link */
+/*visited link */
 .invision:visited {
   color: #000;
 }
@@ -137,7 +152,6 @@ display: inline-block;
   -moz-animation:bounce 1s infinite;
   -o-animation:bounce 1s infinite;
   animation:bounce 1s infinite;
-
 }
 
 @-webkit-keyframes bounce {
@@ -163,3 +177,21 @@ display: inline-block;
   50%      { bottom:15px; }
   100%     {bottom:30;}
 }
+
+/* Media Queries */
+
+@media only screen
+and (max-width: 1350px) {
+  .columns {
+    flex-wrap: wrap;
+    width: 550px;
+  }
+}
+
+/*@media only screen
+and (max-width: 800px) {
+.columns {
+flex-wrap: wrap;
+width: 550px;
+}
+}*/
