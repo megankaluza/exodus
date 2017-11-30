@@ -106,23 +106,23 @@ display: inline-block;
 }*/
 
 /* unvisited link */
-.invision:link {
+.clickable:link {
   color: #000;
   /*text-decoration: line-through;*/
 }
 
 /*visited link */
-.invision:visited {
+.clickable:visited {
   color: #000;
 }
 
 /* mouse over link */
-.invision:hover {
+.clickable:hover {
   background: #FFF;
 }
 
 /* selected link */
-.invision:active {
+.clickable:active {
   color: #000;
 }
 

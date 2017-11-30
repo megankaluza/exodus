@@ -1,7 +1,10 @@
 $(document).ready(function(){
   $('#arrow').click(function() {
     $('#arrow').hide();
-});
+    $('#bottom').click(function(){
+      $('#arrow').show();
+    });
+  });
   //Smooth Scrolling
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
