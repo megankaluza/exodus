@@ -15,8 +15,6 @@ _Objectives_
 
 * _Check out the GitHub Pages: https://megankaluza.github.io/exodus/_
 * _Clone this repository https://github.com/megankaluza/exodus.git_
-* _gem install sass_
-* _sass --watch ._
 * _Open in browser of your choice_
 
 ## Known Bugs
