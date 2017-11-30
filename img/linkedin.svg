@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="127px" height="127px" viewBox="0 0 127 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>LinkedIn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-170.000000, -68.000000)">
+            <g id="LinkedIn" transform="translate(172.000000, 70.000000)">
+                <g id="github-copy" stroke-width="1" fill-rule="evenodd" stroke="#000000">
+                    <circle id="Oval-2" stroke-width="3" cx="61.5" cy="61.5" r="61.5"></circle>
+                </g>
+                <text id="x" font-family="AmericanTypewriter, American Typewriter" font-size="25" font-weight="normal" fill="#000000">
+                    <tspan x="12" y="70">x</tspan>
+                </text>
+                <path d="M35,37.087257 L35.6759199,92.4484321 L45.8112358,96.3525709 L45.3963712,33.9773516 L35,37.087257 Z M50.8780069,24.7094816 L51.1860246,98.4938356 L61.3213406,102.665324 L61.3107127,51.6932102 L77.9064031,109.868235 L88.041719,114.500305 L88.7914837,8.63013092 L78.3652776,13.2859489 L78.0805401,73.2440399 L61.304213,20.5216567 L50.8780069,24.7094816 Z" id="iN" fill="#000000" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

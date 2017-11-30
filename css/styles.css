@@ -64,10 +64,25 @@ footer {
   flex: 1;
 }
 
+.contact {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .container {
   background: #567;
   height: 100vh;
   width: 100%;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
 }
 
 .image {
@@ -99,11 +114,10 @@ footer {
   padding: 1em;
 }
 
-/*.vertical-text {
-font-size: .9em;
-transform: rotate(90deg);
-display: inline-block;
-}*/
+.social {
+  /*margin: 1.3em .2em;*/
+  width: 2.5em;
+}
 
 /* unvisited link */
 .clickable:link {
@@ -118,7 +132,7 @@ display: inline-block;
 
 /* mouse over link */
 .clickable:hover {
-  background: #FFF;
+  color: #ED486C;
 }
 
 /* selected link */
